@@ -4,7 +4,8 @@ There's a lot of open data available about the demographics and geography of the
 
 **Objective:**  
 * Get Points of Interest from open data sources like open street maps (OSM). 
-* Understand how spatial location data works Understand spatial vector data types and how to manipulate it using your language of choice. * * Understand necessary GIS concepts like projections, spatial clustering, etc. 
+* Understand how spatial location data works Understand spatial vector data types and how to manipulate it using your language of choice.
+* Understand necessary GIS concepts like projections, spatial clustering, etc. 
 * Figure out a way of clustering these points into commercial centers/markets. 
 * You can use standard size polygons also to cluster the points. 
 * Find and label the most significant clusters, statistically and intuitively.  
