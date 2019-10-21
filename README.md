@@ -13,3 +13,36 @@ There's a lot of open data available about the demographics and geography of the
 
 **Data Source:**  
 POI (OSM) data- https://www.openstreetmap.org/ You can use overpy (a python frontend for overpass API of OSM) to get OSM data for the desired city.  (Tip: you can use overpass-turbo to frame queries)
+
+## Files Description:
+**Data Extraction:** *data_collection.ipynb*
+
+**Output file:** *bengaluru_geo_data.csv* (Extracted Data of Bengaluru city)
+
+
+**Data Analysis & Clustering:** *bengaluru_commercial_clusters.ipynb* (requires *bengaluru_geo_data.csv*)
+
+**Output files:** 
+* **ESRI Shapefiles:** *(bengaluru_commercial_clusters.shp, .shx, .prj, .cpg, .dbf)*
+* **Cluster Dataframes:** *(bng_category_cluster.csv, commercial_cluster.csv)*
+
+**Cluster Visualization:** *visualize_commercial_clusters.ipynb* (requires *bengaluru_commercial_clusters.shp, commercial_cluster.csv*)
+
+## Requirements
+Python >=3.7 (It's highly recommended to use the latest Anaconda Distribution)
+Jupyter Notebook/Lab
+
+**Libraries Used:**
+* numpy
+* pandas
+* matplotlib
+* geopandas (for geo-spatial analysis)
+* overpy (python client for OverpassAPI)
+* folium (for visualizations)
+* shapely (for geo-spatial analysis)
+* sklearn
+* scipy
+* hdbscan (for HDBSCAN clustering)
+* descartes (for Polygon Patch )
+<hr>
+<h6 align='center'>Copyright (c) 2019 Albert Abraham </h6>
